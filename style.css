@@ -1,0 +1,48 @@
+body
+{
+ font-size: 10px;
+ /* background-color: black; */
+ color: aqua;
+}
+#header h1
+{
+    color: blue;
+    font-size: 2rem;
+    font-family: cursive;
+    text-align: center;
+}
+
+#mainmenu li
+{
+    display: inline-block;  
+    font-size: 1.15rem; 
+    list-style: none;
+    padding-left: 10px; 
+    font-family: fantasy;
+    font-weight: bold;
+    /*border-left: purple 5px solid;*/
+    
+}
+
+
+/* #mainmenu li::before
+{    
+    font-family: "test";
+    content: url(images/resized_edited_faucet_handle.png); 
+} */
+
+#mainmenu li.active::before
+{    
+    font-family: "test";
+    content: url(images/resized_edited_faucet_handle.png); 
+    
+    border: 1px black solid;
+}
+
+/* .active 
+{
+    color: red;
+    text-align: center;
+    font-family: "test";
+    content: url(images/resized_edited_faucet_handle.png);
+}  */

@@ -1,48 +1,371 @@
-body
-{
- font-size: 10px;
- /* background-color: black; */
- color: aqua;
+*{
+    font-size: 10px;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #d6cdcd;
+    
+    font-family: mrs-eaves, serif;
+    font-style: normal;
+    font-weight: 400;
+    
 }
-#header h1
-{
-    color: blue;
-    font-size: 2rem;
-    font-family: cursive;
-    text-align: center;
+body{
+    background-color:#1A368D ;
+  
 }
+/* other color codes:"
+darker blue #1A368D 
+lighter blue #9FCBEE
+gray white #dadada
+*/
 
-#mainmenu li
-{
-    display: inline-block;  
-    font-size: 1.15rem; 
-    list-style: none;
-    padding-left: 10px; 
-    font-family: fantasy;
-    font-weight: bold;
-    /*border-left: purple 5px solid;*/
+/* header region */
+#james_mysliwy_plumbing_dunstable{
+    position: relative;
+    height: 125px;
+    width: 100vw;
+    border-bottom: 3px solid white;
+    border-radius: 30px ;
     
 }
 
 
-/* #mainmenu li::before
-{    
-    font-family: "test";
-    content: url(images/resized_edited_faucet_handle.png); 
-} */
-
-#mainmenu li.active::before
-{    
-    font-family: "test";
-    content: url(images/resized_edited_faucet_handle.png); 
+#james_mysliwy_plumbing_dunstable::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: url("images/plumbing_fixtures.png");
+    background-size: cover;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0px 0px 5px 0px #dadada inset ;
+    opacity: .25;
+}
     
-    border: 1px black solid;
+
+#james_mysliwy_plumbing_dunstable h1{
+    font-family: pulpo-rust-75; 
+    font-weight: 900;
+    font-style: normal; 
+    text-align: center;
 }
 
-/* .active 
-{
-    color: red;
+#james_the_plumber{
+    position: relative;
+    font-size: 3.65rem;
+ 
+}
+
+#Middlesex_ma_plumbing_heating{
+    position: relative;
+    font-size: 2.8rem;
+}
+
+#gas_fitting_heating_ma{
+    position: relative;
+    font-size: 2.8rem;
+}
+/* end header region */
+
+/* call us region */
+#fast_affordable_well_repair_toilet_install{
+    height: 60px;
+    width: 85vw;
+    margin: 15px auto 0 auto;
+    border-bottom: .5px solid white;
+    
+}
+.good_plumbing_heat_quility{
+    font-size: 2.3rem;
     text-align: center;
-    font-family: "test";
-    content: url(images/resized_edited_faucet_handle.png);
-}  */
+}
+#sink_all_around_handy_person{
+    
+}
+
+
+/* end call us region */
+
+/* call us region */
+#call_plumber_repair_install{
+    height: 320px;
+    width: 50vw;
+    margin: 15px auto 0px auto;
+    border-top: 25px solid #000 ;
+    border-bottom: 15px solid #000;
+    border-left: 2.5px solid #000 ;
+    border-right: 2.5px solid #000 ;
+    background-color: #9FCBEE;
+    border-radius: 20px;
+    box-shadow: -5px 5px 8px #000;
+    z-index: 10;
+}
+
+.pipe_frozen_repair {
+    display: block;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    
+}
+
+#best_plumber_installer_well_repair{
+    /* phone # */
+    padding-top: 1.3rem;
+    font-size: 2.3rem;
+    
+}
+
+#best_plumber_installer_well_repair a{
+    /* phone # */
+    font-size: 2.3rem;
+    color: #000;
+}
+/* end call us region */
+
+/* bus info region */
+/* hours region */
+#emergency_urgent_service_repair{
+    
+    height: 145px;
+    width: 80vw;
+    border-radius: 10%;
+    background-color: #9FCBEE;
+    margin: 25px auto 0 auto;
+    box-shadow: 0px 10px 5px #000;    
+    z-index: 5;
+}
+#make_them_call {
+    position:relative;
+    /* display: block; */
+    z-index: 1;
+}
+
+#clogged_sink_toilet{
+    position:absolute;
+    top: 10px;
+    left: 0 ;
+    right: 0;
+    margin-left: 10%;
+    margin-right: 10%; 
+    height: 690px;
+    
+    z-index: -1;
+}
+
+#numbertofollow{
+    position: sticky;
+    color: #000;
+    
+    background-color: rgba(159, 203, 238, .85);
+    /* background-color: rgba(255, 255, 255, .85); */
+    
+    text-align: center;
+    border-radius: 10%;
+    z-index: 1;    
+    top: 25px;
+}
+
+#numbertofollow a{
+    /* position: sticky; */
+    color: #000;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+#call_now_to_repair{
+    position: relative;
+    /* height: 20%; */
+    padding: 0;
+    
+    
+}
+
+#call_now_to_repair strong{
+    font-size: 2.6rem;
+    color: #000;
+}
+
+#here_the_number{
+    position: relative;
+    font-size: 3rem;
+    color: #000;
+    
+}
+.sink_toilet_replacemet{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    
+}
+
+.sink_toilet_replacemet strong{
+    font-size: 1.7rem ;
+    text-decoration: underline;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.water_flow{
+    /* display: flexbox; */
+    height: 900px;
+    /* top: 0; */
+}
+
+#emergency_repair{
+    padding-top: 15px;
+}
+/* end hours region */
+
+.water_heater_install{
+    
+    margin: 15px 0 20px 0;
+}
+
+/* services rendered region */
+#clogged_sink_toilet_plumbing_heat_gas_fitting{
+    height: 190px;
+    width: 45vw;
+    border: 1px solid rebeccapurple;
+    background-color: #9FCBEE;
+    margin-left: 2.5vw;
+    float: left;
+    box-shadow: 0 5px 5px #000;
+}
+
+#clogged_sink_toilet_plumbing_heat_gas_fitting h1{
+    font-size: 1.3rem;
+    color: #000;
+}
+
+/* end services rendered region */
+
+/* contact us region */
+#middlesex_ma_plumber_heat_technician_repairman{
+    height: 190px;
+    width: 45vw;
+    margin-right: 2.5vw;
+    border: 1px solid rebeccapurple;
+    float: right;
+
+   
+}
+/*end contact us region */
+#middlesex_ma_dunstable{
+    clear: both;
+    height: 180px;
+    width: 95vw;
+    margin: 0 auto 0 auto;
+    /* padding: 0 auto 0 auto; */
+    background-image: url('/images/dustable_map_plumbing_area.png');
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+
+/* end bus info region */
+#about_james_plumber_mysliwy{
+    height: 150px;
+    width: 85vw;
+    margin: 20px auto 10px auto;
+    background-color: #9FCBEE;
+    box-shadow: 0 2px 3px #000;
+
+}
+
+#about_james_plumber_mysliwy h2,p{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    padding-top: 20px;
+    
+}
+
+#about_james_plumber_mysliwy h2{
+    font-size: 2rem; 
+    padding-top: 5px;
+}
+
+/* about us */
+/* end about us */
+
+/* why choose us region */
+
+
+#great_service_cheap_speed_fast_customer_service{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 45px 45px 45px 45px 45px;
+}    
+
+.awsome_service{
+    width: 25vw;
+    margin: 0 0 0 auto;
+    background-color: #9FCBEE;
+
+}
+
+.sink_repair{
+    width: 60vw;
+    margin: 0 auto  0 0;
+}
+
+.bathroom_remodel{
+    position: relative;
+    width: 46%;
+    height: 73%;
+    border-radius: 50%;
+    margin: 4px auto;
+    
+    background-color: #1A368D;
+}
+
+.gas_stove_repair{
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    background-color: #fff;
+    transform: rotate(45deg);
+    bottom: 30%;
+    right: 50%;
+}
+
+.kitchen_stove_repair{
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    background-color: #fff;
+    transform: rotate(315deg);
+    bottom: 40%;
+    right: 5%;
+}
+
+.drain_cleaning_pipe_repair{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-left: 12px;
+}
+
+.plumbing_water_gas_list{
+    /* border: 1px orange solid; */
+}
+/* end why choose us region */
+/* footer */
+#plumbing_heating_repair_install_ma{
+    height: 45px;
+    width: 100vw;
+    margin-top: 10.5px;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+#plumbing_heating_repair_install_ma p{
+    font-size: .75rem;
+    padding-top: 10px;
+    color: #dadada;
+}
+/* end footer */

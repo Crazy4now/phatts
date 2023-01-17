@@ -262,7 +262,7 @@ gray white #dadada
     width: 95vw;
     margin: 0 auto 0 auto;
     /* padding: 0 auto 0 auto; */
-    background-image: url('images/dustable_map_plumbing_area.png');
+    background-image: url('/images/dustable_map_plumbing_area.png');
     background-size:cover;
     /* background-repeat: no-repeat; */
 }
@@ -303,6 +303,7 @@ gray white #dadada
 }    
 
 .awsome_service{
+    position: relative;
     width: 25vw;
     margin: 0 0 0 auto;
     background-color: #9FCBEE;
@@ -310,20 +311,54 @@ gray white #dadada
 }
 
 .sink_repair{
+    position: relative;
     width: 60vw;
     margin: 0 auto  0 0;
 }
 
-.bathroom_remodel{
-    position: relative;
-    width: 46%;
-    height: 73%;
-    border-radius: 50%;
-    margin: 4px auto;
-    
-    background-color: #1A368D;
+
+.back_bar{
+    /* position: absolute; */
+    width: 5px;
+    height: 100%;
+    background-color: #fff;
+    left: 0;
 }
 
+.top_bar{
+    /* width: 100%; */
+    height: 5px;
+    background-color: #fff;
+    top: 0;
+}
+.front_bar{
+    position:absolute;
+    width: 5px;
+    height: 100%;
+    background-color: #fff;
+    /* left: 100%; */
+    right: 0;
+}
+
+.bottom_bar{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: #fff;
+    bottom: 0;
+}
+.bath_remodel{
+    position: absolute;
+    width: 10vh;
+    height: 10vh;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+    border-radius: 50%;
+    background-color: #1A368D;
+}
 .gas_stove_repair{
     position: absolute;
     width: 25%;
@@ -332,6 +367,7 @@ gray white #dadada
     transform: rotate(45deg);
     bottom: 30%;
     right: 50%;
+    /* z-index: 3; */
 }
 
 .kitchen_stove_repair{
@@ -342,6 +378,7 @@ gray white #dadada
     transform: rotate(315deg);
     bottom: 40%;
     right: 5%;
+    z-index: 3;
 }
 
 .drain_cleaning_pipe_repair{
@@ -354,6 +391,8 @@ gray white #dadada
 .plumbing_water_gas_list{
     /* border: 1px orange solid; */
 }
+
+
 /* end why choose us region */
 /* footer */
 #plumbing_heating_repair_install_ma{
@@ -369,3 +408,4 @@ gray white #dadada
     color: #dadada;
 }
 /* end footer */
+

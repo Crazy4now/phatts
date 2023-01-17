@@ -262,7 +262,7 @@ gray white #dadada
     width: 95vw;
     margin: 0 auto 0 auto;
     /* padding: 0 auto 0 auto; */
-    background-image: url('/images/dustable_map_plumbing_area.png');
+    background-image: url('images/dustable_map_plumbing_area.png');
     background-size:cover;
     /* background-repeat: no-repeat; */
 }

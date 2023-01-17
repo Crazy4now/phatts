@@ -305,9 +305,10 @@ gray white #dadada
 .awsome_service{
     position: relative;
     width: 25vw;
+    box-sizing: content-box;
     margin: 0 0 0 auto;
     background-color: #9FCBEE;
-
+    
 }
 
 .sink_repair{
@@ -319,7 +320,7 @@ gray white #dadada
 
 .back_bar{
     /* position: absolute; */
-    width: 5px;
+    width: 3px;
     height: 100%;
     background-color: #fff;
     left: 0;
@@ -327,13 +328,13 @@ gray white #dadada
 
 .top_bar{
     /* width: 100%; */
-    height: 5px;
+    height: 3px;
     background-color: #fff;
     top: 0;
 }
 .front_bar{
     position:absolute;
-    width: 5px;
+    width: 3px;
     height: 100%;
     background-color: #fff;
     /* left: 100%; */
@@ -343,41 +344,40 @@ gray white #dadada
 .bottom_bar{
     position: absolute;
     width: 100%;
-    height: 5px;
+    height: 3px;
     background-color: #fff;
     bottom: 0;
 }
 .bath_remodel{
     position: absolute;
-    width: 10vh;
-    height: 10vh;
+    width: 35px;
+    height: 35px;
     left: 25%;
     right: 25%;
     top: 25%;
     bottom: 25%;
-    margin: auto;
+    margin: auto 0 auto 0 ;
     border-radius: 50%;
     background-color: #1A368D;
 }
 .gas_stove_repair{
     position: absolute;
-    width: 25%;
-    height: 10%;
+    width: 10px;
+    height: 5px;
     background-color: #fff;
     transform: rotate(45deg);
-    bottom: 30%;
-    right: 50%;
-    /* z-index: 3; */
+    bottom: 12px;
+    right: 20px;
 }
 
 .kitchen_stove_repair{
     position: absolute;
-    width: 60%;
-    height: 10%;
+    width: 22px;
+    height: 5px;
     background-color: #fff;
     transform: rotate(315deg);
-    bottom: 40%;
-    right: 5%;
+    bottom: 15px;
+    right: 5px;
     z-index: 3;
 }
 
@@ -408,4 +408,3 @@ gray white #dadada
     color: #dadada;
 }
 /* end footer */
-
